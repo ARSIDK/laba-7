@@ -35,10 +35,10 @@ int main()
     getline(cin, text2);
 
     if (textСomparison::Сomparison(text1, text2)) {
-        std::cout << "Строки равны по набору уникальных букв." << std::endl;
+        cout << "Строки равны по набору уникальных букв." << endl;
     }
     else {
-        std::cout << "Строки не равны." << std::endl;
+        cout << "Строки не равны." << endl;
     }
 
     return 0;
